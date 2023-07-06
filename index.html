@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Bird Rock Water Game</title>
+  </head>
+  <body>
+    <header><h1>Bird Rock Water Game</h1></header>
+
+    <div class="score-board">
+      <div id="user-label" class="badge">user</div>
+      <div id="computer-label" class="badge">comp</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+      <p>Paper covers rock. You Win !</p>
+    </div>
+
+    <div class="choices">
+      <div class="choice" id="b">
+        <img src="images/bird.png" alt="" />
+        <div class="middle">
+          <p>Bird</p>
+        </div>
+      </div>
+
+      <div class="choice" id="r">
+        <img src="images/rock.png" alt="" />
+        <div class="middle">
+          <p>Rock</p>
+        </div>
+      </div>
+
+      <div class="choice" id="w">
+        <img src="images/water.png" alt="" />
+        <div class="middle">
+          <p>Water</p>
+        </div>
+      </div>
+    </div>
+
+    <p id="action-message">Make your move</p>
+    <script src="app.js"></script>
+  </body>
+</html>
